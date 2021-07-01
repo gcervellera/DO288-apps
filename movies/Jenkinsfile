@@ -13,8 +13,8 @@ pipeline {
         DEV_PROJECT = "kubeadmin-movies-dev"
         STAGE_PROJECT = "kubeadmin-movies-stage"
         APP_GIT_URL = "https://github.com/gcervellera/DO288-apps"
-        NEXUS_SERVER = "http://nexus-common.apps.eu45.prod.nextcle.com/repository/java"
-
+        //NEXUS_SERVER = "http://nexus-common.apps.eu45.prod.nextcle.com/repository/java"
+        NEXUS_SERVER = ""
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "movies"
     }
